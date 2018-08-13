@@ -7,7 +7,7 @@ var chai = require('chai');
 var sinon = require('sinon');
 var should = chai.should();
 var expect = chai.expect;
-var bitcore = require('@dashevo/dashcore-lib');
+var bitcore = require('bitcore-lib-mue');
 var PrivateKey = bitcore.PrivateKey;
 var PublicKey = bitcore.PublicKey;
 var KJUR = require('jsrsasign');
@@ -302,7 +302,7 @@ describe('PaymentProtocol', function() {
       var paypro = new PaymentProtocol();
       paypro.makePayment();
       paypro.set('memo', 'test memo');
-      paypro.getContentType().should.equal('application/dash-payment');
+      paypro.getContentType().should.equal('application/mue-payment');
     });
 
   });
