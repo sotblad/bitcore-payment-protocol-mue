@@ -1,5 +1,5 @@
 {
-  "name": "dashcore-payment-protocol-mue",
+  "name": "bitcore-payment-protocol-mue",
   "version": "1.5.0",
   "description": "Payment Protocol (BIP70 and related) support for muecore",
   "author": "BitPay <dev@bitpay.com>",
