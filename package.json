@@ -5,8 +5,7 @@
   "author": "BitPay <dev@bitpay.com>",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint .",
-    "lint:fix": "eslint --fix .",
+    "lint": "gulp lint",
     "test": "gulp test",
     "coverage": "gulp coverage",
     "build": "gulp",
