@@ -3,6 +3,6 @@
 
 'use strict';
 
-var gulp_bitcore = require('bitcore-build-dash');
+var gulp_bitcore = require('bitcore-build-mue');
 
 gulp_bitcore('payment-protocol');
